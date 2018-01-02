@@ -1,0 +1,1312 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>SOLAR SYSTEM GAME</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>3i9u4b5vc4soa</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="TiledBackground" sid="727141250431732">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\sprites for sspace game\BXc1IXP.jpg" />
+        </object-type>
+        <object-type name="Audio" sid="370908081040645">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="player" sid="697824585676714">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="410093412008847">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="173471230870483">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="956813426534150">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="755444011471279">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="228801312278802" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504854" original-source="C:\Users\user\Desktop\egames hub\gamehosttrial\player.png">
+                        <collision-poly>
+                            <point x="0.240741" y="0.252427" />
+                            <point x="0.5" y="0.0776699" />
+                            <point x="0.685185" y="0.330097" />
+                            <point x="0.944444" y="0.495146" />
+                            <point x="0.703704" y="0.68932" />
+                            <point x="0.5" y="0.961165" />
+                            <point x="0.194444" y="0.796117" />
+                            <point x="0.0462963" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="139744433070502">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="511211545848053" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\sprites for sspace game\Mercury.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="678765365959764">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite3" sid="235816743329682">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="305472290140488" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\sprites for sspace game\Mercury.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="766948415280840">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="TiledBackground2" sid="349680009449809">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\user\Desktop\egames hub\space.png" />
+        </object-type>
+        <object-type name="Sprite9" sid="994910308966881">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="468494915950120" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\egames hub\download.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text6" sid="635739054757580">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button3" sid="410041308499665">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite10" sid="658605548589877">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="200965958536834" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="304135435820017">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="125865367155651" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\egames hub\venus copy.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="100809175256298">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="390667177671459">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="418660024149497">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591824148869251" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\user\Downloads\Bullet.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.25" />
+                            <point x="0.48" y="0.25" />
+                            <point x="0.8" y="0.3125" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.8" y="0.6875" />
+                            <point x="0.48" y="0.75" />
+                            <point x="0.16" y="0.75" />
+                            <point x="0.08" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="158345266998459">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="166241515306822">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="864347835024560" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504951" original-source="C:\Users\user\Downloads\explode.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="379938321152146">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="life_2" sid="353737218796190" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="991405367226499">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="411794085282234">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="850503369258208">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="889915714095018" speed="5">
+                    <frame duration="1" hotspotX="1.02419" hotspotY="0.5" original-source="C:\Users\user\Desktop\3.png">
+                        <collision-poly>
+                            <point x="0.322581" y="0.703704" />
+                            <point x="0" y="0.503704" />
+                            <point x="0.225806" y="0.207407" />
+                            <point x="0.5" y="0" />
+                            <point x="0.774194" y="0.207407" />
+                            <point x="1" y="0.503704" />
+                            <point x="0.677419" y="0.703704" />
+                            <point x="0.5" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text7" sid="159983394258467">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground4" sid="796236377427298">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\user\Desktop\egames hub\space.png" />
+        </object-type>
+        <object-type name="Sprite14" sid="215648561448474">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741478056430219" speed="5">
+                    <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="C:\Users\user\Desktop\egames hub\earth pic.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text8" sid="442765629659924">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button4" sid="786122949848933">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite15" sid="606594588830714">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="life_3" sid="984184356151076" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="400343280972774">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="343443744702207">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="937785421481181">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="545615165184086" speed="5">
+                    <frame duration="1" hotspotX="1.03226" hotspotY="0.5" original-source="C:\Users\user\Desktop\3B.png">
+                        <collision-poly>
+                            <point x="0.322581" y="0.703704" />
+                            <point x="0" y="0.503704" />
+                            <point x="0.225806" y="0.207407" />
+                            <point x="0.5" y="0" />
+                            <point x="0.774194" y="0.207407" />
+                            <point x="1" y="0.503704" />
+                            <point x="0.677419" y="0.703704" />
+                            <point x="0.5" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16" sid="290595099134316">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="610157445352153">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="826912724456999" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\user\Downloads\Bullet.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.25" />
+                            <point x="0.48" y="0.25" />
+                            <point x="0.8" y="0.3125" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.8" y="0.6875" />
+                            <point x="0.48" y="0.75" />
+                            <point x="0.16" y="0.75" />
+                            <point x="0.08" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17" sid="250709699271546">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="152873914659975">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="370915187815085" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504951" original-source="C:\Users\user\Downloads\explode.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite18" sid="240235121222339">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="493498894265840" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="697909691506536">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="611588028827897" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\egames hub\earth pic - Copy.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text9" sid="141156665711988">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground3" sid="890624449241523">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\0af5ee303dbfecd65e7d0e2777b8dbe3.jpg" />
+        </object-type>
+        <object-type name="Text10" sid="832476708754621">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite19" sid="701850574594449">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579643635280847" speed="5">
+                    <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="C:\Users\user\Desktop\download (3).jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button5" sid="721582107339033">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite20" sid="822541750040557">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="991197938087174" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="269259522938855">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="961730854557786" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\download (3) - Copy.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite21" sid="802615896105597">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="751347690809923">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="939264506607927">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="105861011365631" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\user\Downloads\Bullet.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.25" />
+                            <point x="0.48" y="0.25" />
+                            <point x="0.8" y="0.3125" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.8" y="0.6875" />
+                            <point x="0.48" y="0.75" />
+                            <point x="0.16" y="0.75" />
+                            <point x="0.08" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite22" sid="725593946074556">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="life_4" sid="170680047554128" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="326388921930508">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="651740947527591">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="573042725788548">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="634583509358457" speed="5">
+                    <frame duration="1" hotspotX="1.08187" hotspotY="0.510204" original-source="C:\Users\user\Desktop\5.png">
+                        <collision-poly>
+                            <point x="0.677419" y="0.296296" />
+                            <point x="1" y="0.496296" />
+                            <point x="0.774194" y="0.792593" />
+                            <point x="0.5" y="1" />
+                            <point x="0.225806" y="0.792593" />
+                            <point x="0" y="0.496296" />
+                            <point x="0.322581" y="0.296296" />
+                            <point x="0.5" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite23" sid="409143022695012">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="543675012204198">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="892789430685884" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504951" original-source="C:\Users\user\Downloads\explode.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text11" sid="281309749295301">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground5" sid="884929666127131">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\pEeUsp1.jpg" />
+        </object-type>
+        <object-type name="Sprite24" sid="985328091490886">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="511421432257639" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite25" sid="270626404553630">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="743993295943670" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\planets-jupiter.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text12" sid="741432021321140">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button6" sid="185526860886241">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite26" sid="431885174867824">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="life_5" sid="243558745772168" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="322654860267252">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="816285035970666">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="128445078544123">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="410876021831428" speed="5">
+                    <frame duration="1" hotspotX="0.875486" hotspotY="0.507143" original-source="C:\Users\user\Desktop\7.png">
+                        <collision-poly>
+                            <point x="0.677419" y="0.296296" />
+                            <point x="1" y="0.496296" />
+                            <point x="0.774194" y="0.792593" />
+                            <point x="0.5" y="1" />
+                            <point x="0.225806" y="0.792593" />
+                            <point x="0" y="0.496296" />
+                            <point x="0.322581" y="0.296296" />
+                            <point x="0.5" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite27" sid="802810933630766">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="753640649180669">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="341052261308447" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\explode.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite28" sid="666744310083835">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="571038854590851" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="589649544129367">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="702867818514533" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\planets-jupiter (1).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite29" sid="745699488794014">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="913218722056285">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="402664596503388">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="325431066675632" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\user\Downloads\Bullet.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.25" />
+                            <point x="0.48" y="0.25" />
+                            <point x="0.8" y="0.3125" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.8" y="0.6875" />
+                            <point x="0.48" y="0.75" />
+                            <point x="0.16" y="0.75" />
+                            <point x="0.08" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text13" sid="473183338845508">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground6" sid="998385044648682">
+            <plugin id="TiledBg" />
+            <texture original-source="D:\pEeUsp1.jpg" />
+        </object-type>
+        <object-type name="Sprite30" sid="174646199641343">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="220655427183121" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\edu_ring_a-round_the_saturn.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text14" sid="324502639806531">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button7" sid="191143951958567">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite31" sid="662164677485509">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="life_6" sid="491185549276335" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="537599004085831">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="179289803098790">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="462368199856688">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="585780131443750" speed="5">
+                    <frame duration="1" hotspotX="0.961207" hotspotY="0.494505" original-source="C:\Users\user\Desktop\8B.png">
+                        <collision-poly>
+                            <point x="0.322581" y="0.703704" />
+                            <point x="0" y="0.503704" />
+                            <point x="0.225806" y="0.207407" />
+                            <point x="0.5" y="0" />
+                            <point x="0.774194" y="0.207407" />
+                            <point x="1" y="0.503704" />
+                            <point x="0.677419" y="0.703704" />
+                            <point x="0.5" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite32" sid="108516115691288">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="464680559545856">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="895856209405884" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\user\Downloads\Bullet.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.25" />
+                            <point x="0.48" y="0.25" />
+                            <point x="0.8" y="0.3125" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.8" y="0.6875" />
+                            <point x="0.48" y="0.75" />
+                            <point x="0.16" y="0.75" />
+                            <point x="0.08" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite33" sid="653456754374518">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="838291436024148">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="693497498176812" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504951" original-source="C:\Users\user\Downloads\explode.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite34" sid="393345702819952">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="686757085806167" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="372685116664048">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="399680199670938" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\edu_ring_a-round_the_saturn - Copy.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text15" sid="738148371533450">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground7" sid="467722517692520">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\user\Desktop\egames hub\Textures\TiledBackground2.png" />
+        </object-type>
+        <object-type name="Sprite35" sid="738870721108824">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="856793340341231" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\pia18182_main.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text16" sid="899742117048730">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button8" sid="122149120925536">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite36" sid="414289108909717">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="life_7" sid="645323672891410" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="649781947573856">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="629337374257829">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="929521586995532">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="222965749298358" speed="5">
+                    <frame duration="1" hotspotX="1.02" hotspotY="0.5" original-source="C:\Users\user\Desktop\9B.png">
+                        <collision-poly>
+                            <point x="0.677419" y="0.296296" />
+                            <point x="1" y="0.496296" />
+                            <point x="0.774194" y="0.792593" />
+                            <point x="0.5" y="1" />
+                            <point x="0.225806" y="0.792593" />
+                            <point x="0" y="0.496296" />
+                            <point x="0.322581" y="0.296296" />
+                            <point x="0.5" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite37" sid="333403243627257">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="366181663098807">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="959292501380936" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\user\Downloads\Bullet.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.25" />
+                            <point x="0.48" y="0.25" />
+                            <point x="0.8" y="0.3125" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.8" y="0.6875" />
+                            <point x="0.48" y="0.75" />
+                            <point x="0.16" y="0.75" />
+                            <point x="0.08" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite38" sid="120709985487647">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="577354904855403">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="855843319564077" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504951" original-source="C:\Users\user\Downloads\explode.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite39" sid="131175269036457">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="682974505354482" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="300819761879157">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="181086568455036" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\uranus - Copy.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text17" sid="304631782496843">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground8" sid="766441764540284">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\user\Desktop\egames hub\spaceimglast.jpg" />
+        </object-type>
+        <object-type name="Sprite40" sid="469671412228182">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="303893652650057" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Neptune_1024x768.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text5" sid="880810899031503">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button9" sid="741899868508872">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite41" sid="494019995698300">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="123139716637752">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="953938294254740">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="293519812962859" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\user\Downloads\Bullet.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.25" />
+                            <point x="0.48" y="0.25" />
+                            <point x="0.8" y="0.3125" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.8" y="0.6875" />
+                            <point x="0.48" y="0.75" />
+                            <point x="0.16" y="0.75" />
+                            <point x="0.08" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite42" sid="440299212452494">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="303681122469631">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="179639011217554" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504951" original-source="C:\Users\user\Downloads\explode.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite43" sid="959051742490682">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="life_8" sid="531239710483765" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="802869989269202">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="849818581578998">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="864967684549476">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="945707381658457" speed="5">
+                    <frame duration="1" hotspotX="1.05778" hotspotY="0.5" original-source="C:\Users\user\Desktop\11B.png">
+                        <collision-poly>
+                            <point x="0.703704" y="0.677419" />
+                            <point x="0.503704" y="1" />
+                            <point x="0.207407" y="0.774194" />
+                            <point x="0" y="0.5" />
+                            <point x="0.207407" y="0.225806" />
+                            <point x="0.503704" y="0" />
+                            <point x="0.703704" y="0.322581" />
+                            <point x="1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite44" sid="125018592002467">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Health" sid="434285278381052" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="473502925912710">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="947769650269150" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Neptune_1024x768 - Copy.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text18" sid="994412457742516">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground9" sid="728932056839764">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\user\Desktop\egames hub\space.png" />
+        </object-type>
+        <object-type name="Text19" sid="530467066253657">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Button10" sid="231593241058338">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Sprite45" sid="943312138024054">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="951151790269170">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="667115825738630">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="715965116063947">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="927748747767886" speed="5">
+                    <frame duration="1" hotspotX="1.11111" hotspotY="0.5" original-source="C:\Users\user\Desktop\1.png">
+                        <collision-poly>
+                            <point x="0.296296" y="0.322581" />
+                            <point x="0.496296" y="0" />
+                            <point x="0.792593" y="0.225806" />
+                            <point x="1" y="0.5" />
+                            <point x="0.792593" y="0.774194" />
+                            <point x="0.496296" y="1" />
+                            <point x="0.296296" y="0.677419" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite46" sid="822177515572969">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="230997489711263">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="195725123149341" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\user\Downloads\Bullet.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.25" />
+                            <point x="0.48" y="0.25" />
+                            <point x="0.8" y="0.3125" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.8" y="0.6875" />
+                            <point x="0.48" y="0.75" />
+                            <point x="0.16" y="0.75" />
+                            <point x="0.08" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite47" sid="792373840902072">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="132187921395744">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="885552891342808" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504951" original-source="C:\Users\user\Downloads\explode.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite48" sid="644242995530355">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="258361884287025" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="317628266098892">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="335554340036288" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\sprites for sspace game\Mercury.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite49" sid="917724089873191">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="156542674275581" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\uranus - Copy.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite50" sid="818408751088576">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="263298426438332" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="805347904491135">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="827413550917909" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\planets-jupiter (1).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite51" sid="594393347804009">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health2" sid="370312399738036" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="297844088185383">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="657651937707426" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Neptune_1024x768.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite52" sid="755600320640234">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="386334060494002" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="830017749209101">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="711154634911361" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\edu_ring_a-round_the_saturn.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite53" sid="200952027444839">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="937970526540073" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="967176279688308">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="626143564405119" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\egames hub\venus copy.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite54" sid="416987304421760">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="315186784296343" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="849426995590457">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="303474744620451" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\egames hub\earth pic.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite55" sid="972180118384091">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="552803916479989" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="655379350676566">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="286254563684192" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\1200px-OSIRIS_Mars_true_color.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text20" sid="653279000523552">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite2" sid="261695222272727">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="867331936027266" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\sprites for sspace game\Mercury.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button" sid="776291113118833">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Text2" sid="581477936044322">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text3" sid="696927765218529">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite4" sid="614876851936022">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="life" sid="672185412068002" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="BoundToLayout" sid="104988683696940">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="714184412171146">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="748351603249644">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="807444559590123" speed="5">
+                    <frame duration="1" hotspotX="1.11852" hotspotY="0.508065" original-source="C:\Users\user\Desktop\1.png">
+                        <collision-poly>
+                            <point x="0.296296" y="0.322581" />
+                            <point x="0.496296" y="0" />
+                            <point x="0.792593" y="0.225806" />
+                            <point x="1" y="0.5" />
+                            <point x="0.792593" y="0.774194" />
+                            <point x="0.496296" y="1" />
+                            <point x="0.296296" y="0.677419" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="493274781600049">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="100866551193062">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="544005074914431">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="981162161566861" speed="5">
+                    <frame duration="1" hotspotX="0.52" hotspotY="0.5" original-source="C:\Users\user\Downloads\Bullet.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.25" />
+                            <point x="0.48" y="0.25" />
+                            <point x="0.8" y="0.3125" />
+                            <point x="0.92" y="0.5" />
+                            <point x="0.8" y="0.6875" />
+                            <point x="0.48" y="0.75" />
+                            <point x="0.16" y="0.75" />
+                            <point x="0.08" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="797295684174074">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="720434324214549">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="321790273616824" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504951" original-source="C:\Users\user\Downloads\explode.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="363982827231862">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="health" sid="476333968407856" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="403455942494237">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365681006659861" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\sprites for sspace game\Mercury - Copy.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pause" sid="264958461050978">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="552093891842322" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\images (3).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pause2" sid="315679456334473">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="363105754019854" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\images (3).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pause3" sid="164885825799621">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="994619793668790" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\images (3).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pause4" sid="691573660975067">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="895013376957292" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\images (3).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pause5" sid="723213442055565">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="856434541803064" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\images (3).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pause6" sid="221146012800253">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="766289719703269" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\images (3).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pause7" sid="441323054541511">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="647678925075673" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\images (3).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pause8" sid="598166160183728">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="777724233555073" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\images (3).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
+        <layout>Layout 3.xml</layout>
+        <layout>Layout 4.xml</layout>
+        <layout>Layout 5.xml</layout>
+        <layout>Layout 6.xml</layout>
+        <layout>Layout 7.xml</layout>
+        <layout>Layout 8.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Event sheet 4.xml</event-sheet>
+        <event-sheet>Event sheet 5.xml</event-sheet>
+        <event-sheet>Event sheet 6.xml</event-sheet>
+        <event-sheet>Event sheet 7.xml</event-sheet>
+        <event-sheet>Event sheet 8.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Audio" uid="4">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="5" />
+    </global-instances>
+    <sounds-folder>
+        <file name="sound effects explosion.ogg" />
+        <file name="Sound Effect - Mouse Click.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="Anna Kendrick - Cups (When I-m Gone) Karaoke_ Instrumental (mp3linow.com).ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
