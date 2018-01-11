@@ -8,7 +8,7 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>3i9u4b5vc4soa</unique-id>
-    <saved-with-version>24400</saved-with-version>
+    <saved-with-version>25000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
@@ -1253,6 +1253,12 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="playerLife" sid="505796058992107">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="playerlife2" sid="309345018315886">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1263,7 +1269,6 @@
         <layout>Layout 5.xml</layout>
         <layout>Layout 6.xml</layout>
         <layout>Layout 7.xml</layout>
-        <layout>Layout 8.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
@@ -1273,7 +1278,6 @@
         <event-sheet>Event sheet 5.xml</event-sheet>
         <event-sheet>Event sheet 6.xml</event-sheet>
         <event-sheet>Event sheet 7.xml</event-sheet>
-        <event-sheet>Event sheet 8.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Audio" uid="4">
@@ -1295,6 +1299,11 @@
     <sounds-folder>
         <file name="sound effects explosion.ogg" />
         <file name="Sound Effect - Mouse Click.ogg" />
+        <file name="mercury vn.ogg" />
+        <file name="earth.ogg" />
+        <file name="jupiter.ogg" />
+        <file name="mars.ogg" />
+        <file name="venus.ogg" />
     </sounds-folder>
     <music-folder>
         <file name="Anna Kendrick - Cups (When I-m Gone) Karaoke_ Instrumental (mp3linow.com).ogg" />
